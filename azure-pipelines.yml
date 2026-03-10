@@ -6,14 +6,14 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+# pool:
+#   vmImage: ubuntu-latest
 
 # trigger:
 #   - main  # or your branch name
 
-# pool:
-#   name: MySelfHostedPool # ✅ Your self-hosted agent name
+pool:
+  name: Default # ✅ Your self-hosted agent name
 
 steps:
   # Step 1: Install dependencies
