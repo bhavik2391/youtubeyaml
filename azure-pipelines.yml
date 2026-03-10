@@ -41,7 +41,7 @@ steps:
   - task: AzureWebApp@1
     displayName: 'Deploy to Azure Web App'
     inputs:
-      azureSubscription: 'azure-connection'  # Replace with your Azure DevOps service connection
+      azureSubscription: 'bhavikserviceconnection'  # Replace with your Azure DevOps service connection
       appType: 'webAppLinux'
       appName: 'bhavikapp'                   # Replace with your Azure Web App name
       package: '$(System.DefaultWorkingDirectory)/build'
