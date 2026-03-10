@@ -30,7 +30,7 @@ steps:
   - task: AzureWebApp@1
     displayName: 'Deploy to Azure Web App'
     inputs:
-      azureSubscription: 'Azure subscription 1 (34db0479-6389-48e5-bd21-71038b373805)'  # Replace with your Azure DevOps service connection
+      azureSubscription: 'azure-connection'  # Replace with your Azure DevOps service connection
       appType: 'webAppLinux'
       appName: 'Vikasyoutube'                   # Replace with your Azure Web App name
       package: '$(System.DefaultWorkingDirectory)/build'
