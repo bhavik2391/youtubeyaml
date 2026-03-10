@@ -1,0 +1,20 @@
+{
+  "name": "youtubeyaml",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bhavik2391/youtubeyaml#readme",
+  "bugs": {
+    "url": "https://github.com/bhavik2391/youtubeyaml/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavik2391/youtubeyaml.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
